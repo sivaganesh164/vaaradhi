@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    color: white;
+
+
+}
+
+.head {
+    background-color: green;
+
+}
+
+.logo {
+    display: grid;
+    height: 70px;
+    grid-template-columns: 10% 80% 5% 5%;
+    grid-template-rows: 100%;
+    background-color: orange;
+
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+    padding: 20px;
+    margin: 10px;
+
+
+}
+
+.nextmain {
+    background-image: url("https://vaaradhifarms.com/cdn/shop/files/midjourneyexpert_white_indian_desi_cow_standing_next_to_a_small_26e9dd34-2704-41bc-8611-96d3fc2fd338.png?v=1690866620&width=1400");
+
+    width: 100vw;
+    background-repeat: no-repeat;
+
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.url {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-toppx: 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-gap: 10px;
+
+}
+
+.commonF {
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.I {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.J {
+    display: flex;
+}
+
+.icon {
+
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.venkat {
+    animation-duration: 3s;
+    animation-direction: right;
+}
+.siri{
+    height: 100vh;
+    width: 8000px;
+}
